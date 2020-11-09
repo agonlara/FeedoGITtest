@@ -32,4 +32,9 @@ public class RestaurantResource {
         return "Hola";
     }
 
+
+    @GetMapping("/bye")
+    public String bye() {
+        return "ByeVye";
+    }
 }
